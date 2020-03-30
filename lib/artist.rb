@@ -11,6 +11,7 @@ class Artist
   
   def add_song(song)
     @songs << song
+    @@all << self
   end
   
   def songs
@@ -21,6 +22,8 @@ class Artist
     
   end
   
-  
+  def self.all
+    
+    extract_locale_from_t
   
 end
