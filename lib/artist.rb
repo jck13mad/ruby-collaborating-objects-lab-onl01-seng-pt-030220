@@ -23,7 +23,7 @@ class Artist
   end
   
   def self.all
-    
-    extract_locale_from_t
+    @@all
+  end
   
 end
