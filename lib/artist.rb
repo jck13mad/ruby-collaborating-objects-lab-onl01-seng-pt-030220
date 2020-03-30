@@ -23,7 +23,7 @@ class Artist
     
   end
   
-  def find
+  def find_or_create_by_name(artist_name)
   
   def self.all
     @@all
