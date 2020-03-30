@@ -19,6 +19,8 @@ class Song
     artist.add_song(self)
   end
   
-  def self.assert_select_emai
+  def self.all 
+    Artist.all
+  end
 
 end
