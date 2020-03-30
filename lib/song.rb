@@ -2,8 +2,8 @@ class Song
   
   attr_accessor :artist, :name 
   
-  def intitialize
-      
+  def intitialize(name)
+    
   end
   
 end
