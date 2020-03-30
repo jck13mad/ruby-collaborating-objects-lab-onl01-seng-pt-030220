@@ -19,6 +19,10 @@ class Artist
    @songs
   end
   
+  def save 
+    @@all << self
+  end
+  
   def print_songs
     
   end
@@ -29,7 +33,7 @@ class Artist
       found_artist
     else
       new_artist = self.new(artist_name)
-      @@all << self
+      self.save
       new_artist
     end
   end
