@@ -23,7 +23,8 @@ class Artist
   end
   
   def print_songs
-    
+    @songs.each do |those|
+      
   end
   
   def find_or_create_by_name(artist_name)
