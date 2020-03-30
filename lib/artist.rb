@@ -24,7 +24,7 @@ class Artist
   
   def print_songs
     @songs.each do |those|
-      
+      puts those.name
   end
   
   def find_or_create_by_name(artist_name)
