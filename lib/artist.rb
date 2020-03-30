@@ -18,7 +18,7 @@ class Artist
   end
 
   def self.all
-    @@all #displays the all array
+    @@all - 1  #displays the all array
   end
 
   def self.find_or_create_by_name(artist_name)
