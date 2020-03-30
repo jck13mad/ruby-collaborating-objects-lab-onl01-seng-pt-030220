@@ -30,7 +30,8 @@ class Artist
     else
       new_artist = self.new(artist_name)
       @@all << self
-      
+      new_artist
+    end
   end
   
   def self.all
