@@ -23,6 +23,8 @@ class Artist
     
   end
   
+  def find
+  
   def self.all
     @@all
   end
